@@ -10,6 +10,7 @@ import ProjectEuler.Problem013
 import ProjectEuler.Problem014
 import ProjectEuler.Problem015
 import ProjectEuler.Problem016
+import ProjectEuler.Problem017
 import Test.HUnit
 import Util
 
@@ -24,7 +25,8 @@ testProblems = "Problems" ~: fmap testProblem [
     (solution013, 5537376230),
     (solution014, 837799),
     (solution015, 137846528820),
-    (solution016, 1366)]
+    (solution016, 1366),
+    (solution017, 21124)]
 
 testProblem :: (Show a, Eq a) => (a, a) -> IO Assertion
 testProblem (actual, expected) = return $ time actual >>= (@=? expected)

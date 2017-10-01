@@ -29,7 +29,8 @@ executable ProjectEuler
                        ProjectEuler.Problem013,
                        ProjectEuler.Problem014,
                        ProjectEuler.Problem015,
-                       ProjectEuler.Problem016
+                       ProjectEuler.Problem016,
+                       ProjectEuler.Problem017
 
 test-suite test-all
   hs-source-dirs:     src, test
@@ -49,4 +50,5 @@ test-suite test-all
                       ProjectEuler.Problem013,
                       ProjectEuler.Problem014,
                       ProjectEuler.Problem015,
-                      ProjectEuler.Problem016
+                      ProjectEuler.Problem016,
+                      ProjectEuler.Problem017
